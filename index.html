@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Smooth Scroll with Animation</title>
+
+  <!--
+    Ensure that mobile browsers render the viewport size
+    appropriately.
+
+    https://developer.mozilla.org/en/docs/Mozilla/Mobile/Viewport_meta_tag
+  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--
+    Load a custom webfont using Google Fonts
+    to see fonts available, go to https://fonts.google.com
+
+    This link imports the font-family 'Lato' at weights
+    400 (regular) and 700 (bold).
+  -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+
+  <!-- Import the project's stylesheets -->
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/content-2.css">
+</head>
+<body>
+  <header id="main-header">
+    <a id="logo-anchor" href="#">
+      <img src="img/logo.png" alt="My Logo Image" id="logo">
+    </a>
+    <nav id="main-nav">
+      <!-- Element used to open and close the side menu -->
+      <button id="menu-trigger" type="button"></button>
+
+      <ul>
+        <li>
+          <a href="#content-1">
+            item 1
+          </a>
+        </li>
+        <li>
+          <a href="#content-2">
+            item 2
+          </a>
+        </li>
+        <li>
+          <a href="#content-3">
+            item 3
+          </a>
+        </li>
+        <li>
+          <a href="#content-4">
+            item 4
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            item 5
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div id="menu-overlay"></div>
+  </header>
+  <section id="main-content">
+    <section id="content-1">
+      <div class="container">
+        <h1>Content 1</h1>
+        <p>
+          Biscuit wafer fruitcake candy canes. Dragée dessert cookie. Cheesecake candy canes sesame snaps cupcake sweet roll. Soufflé caramels pie.
+        </p>
+        <img src="img/content-1.svg" alt="My image">
+      </div>
+    </section>
+    <section id="content-2">
+      <div class="container">
+        <h1>Content 2</h1>
+        <p>
+          Cake marzipan liquorice cheesecake donut sesame snaps macaroon chocolate bar gingerbread. Gummi bears dragée cotton candy halvah jelly beans toffee bonbon sweet roll.
+        </p>
+        <img src="img/content-2.svg" alt="My image">
+      </div>
+    </section>
+    <section id="content-3">
+      <div class="container">
+        <h1>Content 3</h1>
+        <h2>Chocolate cake marzipan liquorice cheesecake donut sesame</h2>
+        <p>
+          Cheesecake donut sesame snaps macaroon chocolate bar gingerbread. Gummi bears dragée cotton candy halvah.
+        </p>
+        <img src="img/content-3.svg" alt="My image">
+      </div>
+    </section>
+    <section id="content-4">
+      <div class="container">
+        <h1>Content 4</h1>
+        <p>
+          Cake marzipan liquorice cheesecake donut sesame snaps macaroon chocolate bar gingerbread. Gummi bears dragée cotton candy halvah jelly beans toffee bonbon sweet roll.
+        </p>
+        <p>
+          Jelly beans toffee bonbon sweet roll. Liquorice cheesecake donut sesame snaps macaroon chocolate bar gingerbread. Gummi bears dragée cotton candy halvah.
+        </p>
+        <p>
+          Donut sesame snaps macaroon chocolate bar gingerbread. Gummi bears dragée cotton candies. Donut sesame snaps macaroon chocolate bar gingerbread. Gummi bears dragée cotton candies.
+        </p>
+      </div>
+    </section>
+  </section>
+
+  <!-- jQuery version 3.1.1 uncompressed version -->
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.js"
+    integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+    crossorigin="anonymous"></script>
+
+  <!-- Load the script that defines the header interactions -->
+  <script src="scripts/header.js"></script>
+</body>
+</html>
