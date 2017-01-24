@@ -14,12 +14,12 @@ Besides, when clicking on menu links, the view slides down and up smoothly. Ever
 
 Menu also supports external links.
 
-![preview](https://github.com/habemus/starter-smooth-scroll/raw/master/preview.gif "Preview")
+![preview](https://github.com/habemus/starter-smooth-scroll-animation/raw/master/preview.gif "Preview")
 
 ## File structure
 
 ```
-starter-smooth-scroll/
+starter-smooth-scroll-animation/
 ├── img/                             -- directory containing all images
 │   ├── logo.png
 │   ├── menu-trigger-images.svg
@@ -27,6 +27,7 @@ starter-smooth-scroll/
 ├── scripts/
 │   └── header.js                    -- responsive header interactions
 ├── styles/
+│   ├── content-2.css                -- styles and animation of section 2
 │   ├── header.css                   -- responsive header styles
 │   ├── reset.css                    -- browser resets
 │   └── style.css                    -- main stylesheet

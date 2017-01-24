@@ -15,12 +15,12 @@ Além disso, os links do menu direcionam para seções correspondentes ao longo 
 
 O menu também suporta links externos.
 
-![preview](https://github.com/habemus/starter-smooth-scroll-with-animation/raw/master/preview.gif "Preview")
+![preview](https://github.com/habemus/starter-smooth-scroll-animation/raw/master/preview.gif "Preview")
 
 ## Organização dos arquivos
 
 ```
-starter-smooth-scroll-with-animation/
+starter-smooth-scroll-animation/
 ├── img/                                -- pasta que contém todas as imagens
 │   ├── logo.png
 │   ├── menu-trigger-images.svg
@@ -28,6 +28,7 @@ starter-smooth-scroll-with-animation/
 ├── scripts/
 │   └── header.js                       -- interações no header responsivo
 ├── styles/
+│   ├── content-2.css                   -- estilos e animação da section 2
 │   ├── header.css                      -- estilos do header responsivo
 │   ├── reset.css                       -- reset do browser
 │   └── style.css                       -- folha de estilo principal
